@@ -1,5 +1,4 @@
-```
-#Load packages
+```#Load packages
 library(ggplot2)
 library(rstanarm)
 library(bayesplot)
@@ -8,8 +7,12 @@ library(tidyverse)
 library(tidybayes)
 library(broom.mixed)
 ```
-```
-#Read in dataset
+```#Read in dataset
 library(readr)
 health_insurance <- read.csv("health_insurance.csv", stringsAsFactors = TRUE)
+```
+```#Plot of observed relationship between medical expense, age, and smoking:
+ggplot(health_insurance, aes(x = age, y = charges, color = smoker)) +
+  geom_point() + 
+  geom_smooth(method = "lm", se = FALSE)
 ```
