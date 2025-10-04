@@ -7,5 +7,5 @@ Extracted generated dataset from the U.S. Census Bureau on 1338 subjects to eval
 
 We observe a generally positive correlation between age and medical expenses, as well as smokers having higher costs on average than non-smokers. This can be explained by smoking being a risk factor to preventable diseases such as lung cancer, heart disease, stroke, and more.
 
-##Dataset used:
+## Dataset used:
 https://www.kaggle.com/datasets/mirichoi0218/insurance
