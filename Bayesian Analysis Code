@@ -1,4 +1,4 @@
-'''
+```
 #Load packages
 library(ggplot2)
 library(rstanarm)
@@ -7,4 +7,9 @@ library(bayesrules)
 library(tidyverse)
 library(tidybayes)
 library(broom.mixed)
-'''
+```
+```
+#Read in dataset
+library(readr)
+health_insurance <- read.csv("health_insurance.csv", stringsAsFactors = TRUE)
+```
