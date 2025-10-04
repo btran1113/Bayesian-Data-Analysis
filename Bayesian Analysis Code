@@ -1,4 +1,5 @@
-```#Load packages
+```r
+#Load packages
 library(ggplot2)
 library(rstanarm)
 library(bayesplot)
